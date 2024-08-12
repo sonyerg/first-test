@@ -15,6 +15,7 @@ button {
 
 button:hover {
   background-color: #ffd84d;
+  cursor: pointer;
 }
 
 button:active {
