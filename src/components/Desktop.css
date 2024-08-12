@@ -1,0 +1,73 @@
+.checkbox-container {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23px;
+  height: 23px;
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+/* Checkbox checkmark */
+input[type="checkbox"]::before {
+  content: "";
+  width: 6px;
+  height: 16px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  transform: rotate(45deg) scale(0);
+}
+
+/*Hover Unchecked checkbox */
+input[type="checkbox"]:hover {
+  border-color: #bdbdbd;
+}
+
+input[type="checkbox"]:hover::before {
+  transform: rotate(45deg) scale(1);
+  border-color: #e3e3e3;
+}
+
+/* Checking checkbox */
+input[type="checkbox"]:active {
+  box-shadow: 0 0 0 3px #e9f0fe; /* Blue outer border when active */
+}
+
+input[type="checkbox"]:active::before {
+  border-color: #878787; /* Blue outer border when active */
+}
+
+/* Checked checkbox */
+input[type="checkbox"]:checked::before {
+  transform: rotate(45deg) scale(1);
+}
+
+input[type="checkbox"]:checked {
+  background-color: #2469f6;
+  border-color: #2469f6;
+}
+
+input[type="checkbox"]:checked:hover {
+  background-color: #5087f8;
+  border-color: #5087f8;
+}
+
+input[type="checkbox"]:checked:active {
+  background-color: #2469f6;
+  border-color: #2469f6;
+}
+
+input[type="checkbox"]:checked:hover::before {
+  border-color: #ffffff;
+}

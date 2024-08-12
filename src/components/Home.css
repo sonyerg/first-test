@@ -1,4 +1,4 @@
-.homeContainer {
+.home-container {
   width: 370px;
   height: 42px;
   justify-content: space-between;
@@ -8,9 +8,8 @@
   box-sizing: border-box;
 }
 
-input {
-  height: 25px;
-  width: 25px;
-  border-radius: 6px;
-  border: 1px solid #e5e5e5;
+.checkbox-container {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
 }

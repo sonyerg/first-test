@@ -1,0 +1,22 @@
+button {
+  width: 340px;
+  height: 40px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 4px;
+  margin: 10px 15px 0px 15px;
+  background-color: #ffce22;
+  font-family: "Montserrat";
+  line-height: 18.2px;
+  font-weight: 400;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffd84d;
+}
+
+button:active {
+  background-color: #ffce22;
+}

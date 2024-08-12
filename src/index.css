@@ -1,8 +1,9 @@
 :root {
-  font-family: "Inter", sans-serif;
-  line-height: 16px;
+  font-family: "Montserrat";
+  line-height: 18.2px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
+  color: #1f2128;
   margin: 0;
   padding: 0;
 }

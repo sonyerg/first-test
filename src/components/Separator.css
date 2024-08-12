@@ -1,0 +1,10 @@
+.separator-container {
+  padding: 10px 0;
+}
+
+.separator {
+  height: 1px;
+  width: 340px;
+  border-radius: 0.7px;
+  background-color: #cdcdcd;
+}
