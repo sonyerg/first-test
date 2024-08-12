@@ -41,11 +41,11 @@ input[type="checkbox"]:hover::before {
 
 /* Checking checkbox */
 input[type="checkbox"]:active {
-  box-shadow: 0 0 0 3px #e9f0fe; /* Blue outer border when active */
+  box-shadow: 0 0 0 3px #e9f0fe;
 }
 
 input[type="checkbox"]:active::before {
-  border-color: #878787; /* Blue outer border when active */
+  border-color: #878787;
 }
 
 /* Checked checkbox */
