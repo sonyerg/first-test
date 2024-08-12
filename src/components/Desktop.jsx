@@ -3,12 +3,12 @@ import "./Desktop.css";
 
 export default function Desktop({ isHovered, isChecked, isActive }) {
   return (
-    <label
+    <div
       className={`checkbox-container ${isHovered ? "hovered" : ""} ${
         isChecked ? "checked" : ""
       } ${isActive ? "active" : ""}`}
     >
       <input type="checkbox" checked={isChecked} readOnly />
-    </label>
+    </div>
   );
 }
